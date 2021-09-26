@@ -1,8 +1,5 @@
 import React from "react";
-import intro from "../assets/img/intro.jpg";
 import test from '../assets/img/test.png';
-import Slider from "./Slider/Slider";
-import Instagram from "./Instagram";
 export default function Home() {
   return (
     <div>
