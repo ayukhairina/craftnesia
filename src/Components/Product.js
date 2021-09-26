@@ -1,6 +1,4 @@
 import React from "react";
-import Product01 from "../assets/img/products-01.jpg";
-import Product02 from "../assets/img/products-02.jpg";
 import Product03 from "../assets/img/products-03.jpg";
 import Slider from "./Slider/Slider";
 
