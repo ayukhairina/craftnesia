@@ -9,7 +9,7 @@ export default function Navigation() {
             className="navbar-brand text-uppercase fw-bold d-lg-none"
             href="index.html"
           >
-            Start Bootstrap
+            CRAFTNESIA
           </a>
           <button
             className="navbar-toggler"
