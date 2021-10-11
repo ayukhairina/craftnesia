@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Contact() {
   return (
@@ -12,10 +11,19 @@ export default function Contact() {
                 <h2 className="section-heading mb-5">
                   <span className="section-heading-lower">Reach us On</span>
                 </h2>
-                <Link to='google.com'>
-                <button>Button CLicked</button>
-                </Link>
-               
+                <a
+                  href="https://www.instagram.com/topcraftnesia/"
+                  className="instagram social"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <img
+                    src={process.env.PUBLIC_URL + '/instagram.png'}
+                    alt="ig logo"
+                    height={40}
+                  />
+                  <h6 style={{marginTop: 10}}>@topcraftnesia</h6>
+                </a>
               </div>
             </div>
           </div>
