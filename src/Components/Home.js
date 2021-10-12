@@ -9,7 +9,7 @@ export default function Home() {
         <div className="container">
           <div className="intro">
             <img
-              className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+              className="intro-img img-fluid mb-3 mb-lg-0 img-round"
               src={test}
               alt="..."
             />

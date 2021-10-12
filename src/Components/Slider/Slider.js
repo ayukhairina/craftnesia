@@ -30,7 +30,7 @@ export default function Slider(props) {
             key={obj.id}
             className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
           >
-            <img alt ='' className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={process.env.PUBLIC_URL + `/imgs/${props.name}${index + 1}.jpg`} />
+            <img alt ='' className=" mx-auto d-flex rounded mb-3 mb-lg-0" src={process.env.PUBLIC_URL + `/imgs/${props.name}${index + 1}.png`} />
           </div>
         );
       })}

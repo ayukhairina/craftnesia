@@ -11495,3 +11495,16 @@ p {
 a{
   text-decoration: none !important;
 }
+
+.img-round{
+  border-radius: 50rem !important;
+}
+
+.social-media-icon {
+ max-width: 10%;
+ min-width: 3rem;
+}
+
+.social-media-container{
+  margin-bottom: 2rem;
+}
