@@ -1,5 +1,5 @@
 import React from "react";
-import test from '../assets/img/test.png';
+import test from "../assets/img/test.png";
 import YoutubeEmbed from "./Youtube/YoutubeEmbed";
 
 export default function Home() {
@@ -15,15 +15,21 @@ export default function Home() {
             />
             <div className="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Fresh Coffee</span>
-                <span className="section-heading-lower">Worth Drinking</span>
+                <span className="section-heading-upper">South Kalimantan's</span>
+                <span className="section-heading-lower">Traditional Handicraft</span>
               </h2>
-             
               <p className="mb-3">
-                Every cup of our quality artisan coffee starts with locally
-                sourced, hand picked ingredients. Once you try it, our coffee
-                will be a blissful addition to your everyday morning routine -
-                we guarantee it!
+                South Kalimantan is one of the provinces in Indonesia that has
+                natural wealth and beauty that is used by local people as raw
+                materials to make various unique handicrafts. The main
+                ingredients are processed into handicrafts of South
+                Kalimantan such as rattan, purun, and water hyacinth. Various
+                handicrafts of South Kalimantan such as lampits, mats or
+                carpets, bags, baskets, various daily necessities, and other
+                woven furniture that gives an ethnic and traditional impression.
+                Currently, handicraft products of South Kalimantan have
+                go to global markets such as Malaysia, Japan,
+                Turkey, the Middle East to Europe.
               </p>
               <div className="intro-button mx-auto">
                 <a className="btn btn-primary btn-xl" href="#!">
@@ -40,8 +46,7 @@ export default function Home() {
             <div className="col-xl-9 mx-auto">
               <div className="cta-inner bg-faded text-center rounded">
                 <h2 className="section-heading mb-4">
-                <YoutubeEmbed embedId="HDMlk9xv5qM" />
-                  
+                  <YoutubeEmbed embedId="HDMlk9xv5qM" />
                 </h2>
               </div>
             </div>

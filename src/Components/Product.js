@@ -72,11 +72,12 @@ export default function Product() {
                 </h2>
               </div>
             </div>
-            <img
+            {/* <img
               class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
               src={Product03}
               alt="..."
-            />
+            /> */}
+            <Slider name={'purun'} />
             <div class="product-item-description d-flex me-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0">
