@@ -1,5 +1,4 @@
 import React from "react";
-import Product03 from "../assets/img/products-03.jpg";
 import Slider from "./Slider/Slider";
 
 export default function Product() {
