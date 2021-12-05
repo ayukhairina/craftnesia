@@ -35,43 +35,59 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="row" style={{marginTop: 100}}>
+              <div className="row" style={{ marginTop: 100 }}>
                 <div className="col-xl-4 col-lg-4 mx-auto">
                   <img
-                    style={{ height: "50%" }}
+                    style={{ height: "30%", marginLeft: "20%" }}
                     src="https://i.postimg.cc/QdWzW8bN/Untitled-design-4-1.png"
                     border="0"
                     alt="58e6920a-3f7b-499f-b444-d738e1c4e863"
                   />{" "}
-                  <div  style={{backgroundColor:'#f6e1c5'}}>
-                    <h3 style={{textAlign:'center'}}>Founder</h3>
+                  <div style={{ backgroundColor: "#f6e1c5" }}>
+                    <h3 style={{ textAlign: "center" }}>Founder</h3>
                     <a
-                  href="https://www.instagram.com/dewihanna/"
-                  className="instagram social"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <h5 style={{marginTop: 4, color:'black', textAlign:'center'}}>@dewihanna</h5>
-                </a>
+                      href="https://www.instagram.com/dewihanna/"
+                      className="instagram social"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      <h5
+                        style={{
+                          marginTop: 4,
+                          color: "black",
+                          textAlign: "center",
+                        }}
+                      >
+                        @dewihanna
+                      </h5>
+                    </a>
                   </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 mx-auto">
                   <img
-                    style={{ height: "50%" }}
+                    style={{ height: "30%", marginLeft: "20%" }}
                     src="https://i.postimg.cc/y65VcdH2/Untitled-design-2.png"
                     border="0"
                     alt="58e6920a-3f7b-499f-b444-d738e1c4e863"
                   />{" "}
-                  <div style={{backgroundColor:'#f6e1c5'}}>
-                   <h3 style={{textAlign:'center'}}> Co-Founder </h3>
-                   <a
-                  href="https://www.instagram.com/afnyafny/"
-                  className="instagram social"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  <h5 style={{marginTop: 4, color:'black', textAlign:'center'}}>@afnyafny</h5>
-                </a>
+                  <div style={{ backgroundColor: "#f6e1c5" }}>
+                    <h3 style={{ textAlign: "center" }}> Co-Founder </h3>
+                    <a
+                      href="https://www.instagram.com/afnyafny/"
+                      className="instagram social"
+                      target={"_blank"}
+                      rel="noreferrer"
+                    >
+                      <h5
+                        style={{
+                          marginTop: 4,
+                          color: "black",
+                          textAlign: "center",
+                        }}
+                      >
+                        @afnyafny
+                      </h5>
+                    </a>
                   </div>
                 </div>
               </div>

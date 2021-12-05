@@ -15,21 +15,25 @@ export default function Home() {
             />
             <div className="intro-text left-0 text-center bg-faded p-5 rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">South Kalimantan's</span>
-                <span className="section-heading-lower">Traditional Handicraft</span>
+                <span className="section-heading-upper">
+                  South Kalimantan's
+                </span>
+                <span className="section-heading-lower">
+                  Traditional Handicraft
+                </span>
               </h2>
               <p className="mb-3">
                 South Kalimantan is one of the provinces in Indonesia that has
                 natural wealth and beauty that is used by local people as raw
                 materials to make various unique handicrafts. The main
-                ingredients are processed into handicrafts of South
-                Kalimantan such as rattan, purun, and water hyacinth. Various
-                handicrafts of South Kalimantan such as lampits, mats or
-                carpets, bags, baskets, various daily necessities, and other
-                woven furniture that gives an ethnic and traditional impression.
-                Currently, handicraft products of South Kalimantan have
-                go to global markets such as Malaysia, Japan,
-                Turkey, the Middle East to Europe.
+                ingredients are processed into handicrafts of South Kalimantan
+                such as rattan, purun, and water hyacinth. Various handicrafts
+                of South Kalimantan such as lampits, mats or carpets, bags,
+                baskets, various daily necessities, and other woven furniture
+                that gives an ethnic and traditional impression. Currently,
+                handicraft products of South Kalimantan have go to global
+                markets such as Malaysia, Japan, Turkey, the Middle East to
+                Europe.
               </p>
               <div className="intro-button mx-auto">
                 <a className="btn btn-primary btn-xl" href="#!">
@@ -48,6 +52,22 @@ export default function Home() {
                 <h2 className="section-heading mb-4">
                   <YoutubeEmbed embedId="HDMlk9xv5qM" />
                 </h2>
+                <a
+                  href="https://drive.google.com/file/d/1sMAlqGW5W94oNPVCQRrSzK7d6LuOXAYC/view?usp=sharing"
+                  className="instagram social"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <h5
+                    style={{
+                      marginTop: 4,
+                      color: "black",
+                      textAlign: "center",
+                    }}
+                  >
+                    Download Katalog Disini
+                  </h5>
+                </a>
               </div>
             </div>
           </div>
