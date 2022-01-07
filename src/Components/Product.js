@@ -17,7 +17,7 @@ export default function Product() {
                 </h2>
               </div>
             </div>
-            <Slider name={"img"} />
+            <Slider name={"rattan"} />
             {/* <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src={Product01} alt="..." /> */}
             <div class="product-item-description d-flex me-auto">
               <div class="bg-faded p-5 rounded">
@@ -68,6 +68,7 @@ export default function Product() {
                 <h2 class="section-heading mb-0">
                   <span class="section-heading-upper">Purun</span>
                   <span class="section-heading-lower">Anyaman Purun</span>
+                  <span class="section-heading-lower">& Eceng Gondok</span>
                 </h2>
               </div>
             </div>
@@ -76,7 +77,7 @@ export default function Product() {
               src={Product03}
               alt="..."
             /> */}
-            <Slider name={'purun'} />
+            <Slider name={"purun"} />
             <div class="product-item-description d-flex me-auto">
               <div class="bg-faded p-5 rounded">
                 <p class="mb-0">
